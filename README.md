@@ -6,6 +6,10 @@
   <strong>秋末 · 音乐馆 — 一个简洁优雅的在线音乐搜索与播放网站</strong>
 </p>
 
+<p align="center">
+  基于 <a href="https://github.com/CharlesPikachu/musicsquare">CharlesPikachu/musicsquare</a> 修改
+</p>
+
 ---
 
 ## 🌟 概述
