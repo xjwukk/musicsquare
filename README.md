@@ -3,47 +3,75 @@
 </p>
 
 <p align="center">
-  <strong>学习收获更多有趣的内容, 欢迎关注微信公众号：Charles的皮卡丘</strong>
+  <strong>秋末 · 音乐馆 — 一个简洁优雅的在线音乐搜索与播放网站</strong>
 </p>
 
-# 🌟 Overview
+---
 
-MusicSquare is a simple music search, download, and play website. 
-It provides a lightweight, browser-friendly interface to search, play, and download music directly from your GitHub Pages site.
+## 🌟 概述
 
-This GitHub Pages deployment is available at:
+秋末 · 音乐馆是一个轻量级的在线音乐搜索、播放和歌单管理网站。支持多平台音源聚合搜索，提供清爽的毛玻璃 UI 界面，支持浅色/深色主题切换。
 
-👉 **Live URL:** <https://charlespikachu.github.io/musicsquare/>
+## ✨ 功能特性
 
+- 🎵 **多平台音乐搜索与播放** — 支持网易云、QQ 音乐、酷我、JOOX 四大音源
+- 📜 **歌单管理** — 创建、编辑、导出歌单，收藏喜欢的歌曲
+- 🔐 **管理员系统** — 登录后可管理歌单，访客可搜索和播放
+- 🌓 **浅色/深色主题** — 一键切换，自动跟随系统偏好
+- 📱 **响应式布局** — 适配手机、平板、PC 三种屏幕
+- ⌨️ **键盘快捷键** — Space 播放/暂停、←→ 快进快退、↑↓ 音量、N/P 切歌
+- 🎨 **毛玻璃设计风格** — 霞鹜文楷字体，柔和过渡动效
 
-## ✨ Key Features
+## 🚀 本地运行
 
-- 🎵 **Online music search & playback**  
-  Supports searching songs by keyword and playing them directly in the browser.
+```bash
+# 安装 Node.js 后，在项目目录下执行：
+node server.js
 
-- 📻 **Multiple music sources**  
-  Integrates online platforms such as Netease, Kuwo, JOOX and QQ.
+# 浏览器打开 http://localhost:8080
+```
 
-- 💛 **Cute & simple UI**  
-  A clean, playful interface themed around Pikachu and casual music listening.
+## ☁️ 云服务器部署
 
+```bash
+# 1. 上传整个项目目录到服务器
+# 2. 修改 server.js 中的管理员密码（ADMIN_PASSWORD）
+# 3. 启动服务
+node server.js
 
-## 🚀 How to Use
+# 后台运行
+nohup node server.js &
+# 或使用 pm2
+pm2 start server.js --name musicsquare
+```
 
-1. Open the live site:  
-   👉 <https://charlespikachu.github.io/musicsquare/>
+## 🔐 管理员账号
 
-2. Use the search box to input an artist name or song title (e.g., “周杰伦”).
+- 用户名：`rawley`
+- 密码：在 `server.js` 中配置（默认 `w1341995`，部署前请修改）
+- 密码仅存储于服务端，前端源码不可见
 
-3. Click on a result to start playback and enjoy the music.
+## ⌨️ 快捷键
 
+| 按键 | 功能 |
+|------|------|
+| Space | 播放 / 暂停 |
+| ← → | 快退 / 快进 5 秒 |
+| ↑ ↓ | 音量加 / 减 |
+| N / P | 下一首 / 上一首 |
+| F | 收藏 / 取消收藏 |
+| L | 切换歌词效果 |
+| M | 静音 / 取消静音 |
+| / | 聚焦搜索框 |
+| Esc | 关闭弹窗 |
 
-## 💻 Development & Customization
+## 🛠 技术栈
 
-- This site is hosted via **GitHub Pages**.
-- You can customize:
-  - Theme (colors, background, icons)
-  - API endpoints (e.g., your own proxy/bridge server for Netease, Kuwo, JOOX and QQ.)
-  - Player behavior (autoplay, playlist, lyrics panel, etc.)
+- **前端**：纯原生 HTML/CSS/JS，无框架，单文件架构
+- **后端**：Node.js 内置 http 模块（~120 行），文件系统存储
+- **音源 API**：第三方公开音乐接口
+- **字体**：霞鹜文楷 Screen + Baloo 2
 
-For more details, check the source files in this repository and adjust the HTML / CSS / JavaScript as needed.
+## 📄 许可
+
+MIT License — 仅供学习演示，音乐版权归各平台与原作者所有。
