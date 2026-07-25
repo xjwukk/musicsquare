@@ -1,0 +1,66 @@
+{
+  "favorites": [
+    {
+      "uid": "qq-002elTc93yuXu2",
+      "source": "qq",
+      "displayIndex": 1,
+      "keyword": "你听得到",
+      "songid": "002elTc93yuXu2",
+      "songMid": "002elTc93yuXu2",
+      "qqId": "002elTc93yuXu2",
+      "qqSearchKey": "你听得到",
+      "qqIndex": 1,
+      "title": "你听得到",
+      "artist": "周杰伦",
+      "album": "叶惠美",
+      "cover": "http://y.gtimg.cn/music/photo_new/T002R500x500M000000MkMni19ClKG_5.jpg",
+      "pageUrl": "http://c.y.qq.com/v8/playsong.html?songmid=002elTc93yuXu2",
+      "quality": "lossless",
+      "qualityLabel": "LOSSLESS",
+      "qqQualityText": "SQ 1541",
+      "pay": "付费",
+      "detailsLoaded": false,
+      "audioUrl": null,
+      "lrc": null,
+      "lrcUrl": null
+    }
+  ],
+  "playlists": [
+    {
+      "id": "pl-1784983215084-f3008e08e9025",
+      "name": "Jay",
+      "tracks": []
+    },
+    {
+      "id": "pl-1784983656729-3125cfc070fcf8",
+      "name": "最爱周杰伦",
+      "tracks": [
+        {
+          "uid": "qq-003aAYrm3GE0Ac",
+          "source": "qq",
+          "displayIndex": 1,
+          "keyword": "稻香",
+          "songid": "003aAYrm3GE0Ac",
+          "songMid": "003aAYrm3GE0Ac",
+          "qqId": "003aAYrm3GE0Ac",
+          "qqSearchKey": "稻香",
+          "qqIndex": 1,
+          "title": "稻香",
+          "artist": "周杰伦",
+          "album": "魔杰座",
+          "cover": "http://y.gtimg.cn/music/photo_new/T002R500x500M000002Neh8l0uciQZ_3.jpg",
+          "pageUrl": "http://c.y.qq.com/v8/playsong.html?songmid=003aAYrm3GE0Ac",
+          "quality": "lossless",
+          "qualityLabel": "LOSSLESS",
+          "qqQualityText": "SQ 933",
+          "pay": "付费",
+          "detailsLoaded": false,
+          "audioUrl": null,
+          "lrc": null,
+          "lrcUrl": null
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-07-25T13:16:23.023Z"
+}
